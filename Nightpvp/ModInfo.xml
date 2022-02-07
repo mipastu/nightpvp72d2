@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="PvPNight" />
+		<Description value="Pvp only in night" />
+		<Author value="mipastu" />
+		<Version value="0.1" />
+	</ModInfo>
+</xml>

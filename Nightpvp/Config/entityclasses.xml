@@ -1,0 +1,16 @@
+<configs>
+
+
+  <!-- Scale the Head Damage Modifier based on the Game Difficulty -->
+  <append xpath="/entity_classes/entity_class[@name='playerMale']/effect_group">
+  
+  
+  
+			<passive_effect name="DamageModifier" target="other" operation="perc_set" value="0">
+			<requirement name="IsDay" />
+			<requirement name="EntityTagCompare" target="other" tags="player"/>
+			</passive_effect>
+			
+  </append>
+
+</configs>
